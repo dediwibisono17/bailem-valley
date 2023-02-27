@@ -453,8 +453,39 @@ section {
 }
 
 footer {
-    padding: 32px 0;
+    padding: 32px 0 0;
     background: #05375c;
+    position: relative;
+    margin: 0;
+    .bg-power {
+        background: #01253f;
+        padding: 8px 0;
+        small {
+            color: #ececec;
+            a {
+                color: #ececec;
+            }
+        }
+    }
+    .bg-help {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: auto;
+        height: auto;
+        @media screen and (max-width:766px) {
+            position: absolute;
+            bottom: 0;
+            right: 32px;
+            width: 80px;
+            height: 80px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .logo {
         width: 200px;
         height: auto;
