@@ -14,6 +14,8 @@ $('.spesial').slick({
     infinite: false,
     speed: 300,
     arrows: true,
+    autoplay:true,
+    infinite:true,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
