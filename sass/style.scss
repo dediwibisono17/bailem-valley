@@ -76,6 +76,16 @@ body {
         background: #05375c;
         border-color: transparent;
     }
+
+    .btn-secondary {
+        color: #ffffff;
+        background-color: #da9e25;
+        border-color: transparent;
+        &:hover {
+            background: #ab7913;
+            border-color: transparent;
+        }
+    }
 }
 .clear {
     clear: both;
