@@ -47,3 +47,17 @@ $('.spesial').slick({
       // instead of a settings object
     ]
   });
+
+  //fancy box
+$('[data-fancybox="gallery"]').fancybox({
+  buttons: [
+    "slideShow",
+    "thumbs",
+    "zoom",
+    "fullScreen",
+    "share",
+    "close"
+  ],
+  loop: false,
+  protect: true
+});
