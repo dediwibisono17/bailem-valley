@@ -789,7 +789,12 @@ footer {
 
         li {
             margin-bottom: 4px;
-
+            .ml-2 {
+                @media screen and (max-width:766px) {
+                    font-size: 12px;
+                    margin-left: .1rem !important;
+                }
+            }
             a {
                 color: white;
 
