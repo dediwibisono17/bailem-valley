@@ -505,12 +505,44 @@ section {
     }
 }
 
+.kabut {
+    background-image: url('../img/kabut.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.hutan {
+    background-image: url('../img/hutan.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bukit {
+    background-image: url('../img/bukit.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bukit {
+    background-image: url('../img/bukit.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .atas {
     position: relative;
     // background: url('../img/ikan.jpg');
     // background-size: cover;
     // background-attachment: fixed;
-    background: #c2e4f9;
+    // background: #c2e4f9;
     // height: 360px;
     min-height: 100vh;
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -1004,6 +1036,46 @@ footer {
             width: 100%;
             height: 100%;
             object-fit: contain;
+        }
+    }
+}
+
+.coming {
+    width: 100vw;
+    height: 100vh;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.cs {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    @media screen and (max-width:766px) {
+        width: 80vw;
+    }
+    h1 {
+        font-size: 4.3rem;
+        font-family: 'PT Serif';
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px black;
+        @media screen and (max-width:766px) {
+            font-size: 3rem;
+        }
+    }
+    h2 {
+        font-size: 3rem;
+        font-family: 'PT Serif';
+        font-weight: bold;
+        color: #ccc;
+        text-shadow: 2px 2px black;
+        @media screen and (max-width:766px) {
+            font-size: 1.5rem;
         }
     }
 }
